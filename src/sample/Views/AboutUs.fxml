@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="970.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.AboutUsController">
+   <children>
+      <StackPane layoutX="203.0" layoutY="77.0" onMouseDragged="#dragged" onMousePressed="#pressed" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane prefHeight="680.0" prefWidth="118.0" stylesheets="@Style.css" HBox.hgrow="ALWAYS">
+                     <children>
+                        <ImageView fitHeight="680.0" fitWidth="205.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Kamus212.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="58.0" fitWidth="62.0" layoutX="14.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Home1.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="90.0" layoutY="65.0" onMouseClicked="#home" strokeType="OUTSIDE" strokeWidth="0.0" text="Home">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="180.0" onMouseClicked="#Javanese" strokeType="OUTSIDE" strokeWidth="0.0" text="Javanese">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Text>
+                        <ImageView fitHeight="58.0" fitWidth="62.0" layoutX="123.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8-wayang-shadow-puppet-50.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="72.0" layoutY="292.0" onMouseClicked="#english" strokeType="OUTSIDE" strokeWidth="0.0" text="English">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Text>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Us">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Text>
+                        <ImageView fitHeight="58.0" fitWidth="62.0" layoutX="117.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8-about-50.png" />
+                           </image>
+                        </ImageView>
+                        <Pane layoutX="170.0" layoutY="351.0" prefHeight="75.0" prefWidth="10.0" style="-fx-background-color: white;" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="680.0" prefWidth="755.0" style="-fx-background-color: #f0850a;" HBox.hgrow="ALWAYS">
+                     <children>
+                        <fx:include source="TitleBar.fxml" AnchorPane.leftAnchor="710.0" AnchorPane.topAnchor="4.0" />
+                        <ImageView fitHeight="681.0" fitWidth="543.0" layoutX="-7.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@About2.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="194.0" layoutY="193.0" onMouseClicked="#Javanese" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed By">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
