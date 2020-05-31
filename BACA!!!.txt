@@ -1,0 +1,3 @@
+Download Conecctor Mysql JDBC nya terlebih dahulu pada link di bawah ini setelah itu diimport
+
+https://drive.google.com/file/d/1WW-36IdxSFydHoUr7CI1fX0ruVprKZ4F/view?usp=sharing
