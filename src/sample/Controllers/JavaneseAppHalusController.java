@@ -139,7 +139,7 @@ public class JavaneseAppHalusController implements Initializable {
         //Membungkus Observablelist ke dalam FilterList (awalnya menampilkan semua data)
         FilteredList<DataModelJavanese> filteredList = new FilteredList<>(observableList, b -> true);
 
-        // Mengatur predikat filter setiap kali filter berubah
+        // Mengatur prediksi filter setiap kali filter berubah
         filter.textProperty().addListener((observable, oldValue, newValue)-> {
             filteredList.setPredicate(dataModelJavanese -> {
 
